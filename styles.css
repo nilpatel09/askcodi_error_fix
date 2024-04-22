@@ -1,0 +1,76 @@
+/* CSS styles for the website layout */
+/* You can add more styles to make it visually appealing */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.hero {
+    height: 500px;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #37ac64;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.newsletter-signup {
+    margin-top: 20px;
+}
+
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Darker text color for better contrast */
+    border: 1px solid #ccc; /* Light border for visibility */
+}
+
+
+.newsletter-signup button {
+    padding: 10px 20px;
+    background-color: #37ac64;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+}
